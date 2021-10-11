@@ -4,8 +4,13 @@ Dane infrastruktury rowerowej miasta Warszawa udostępnione dla edytorów OSM. P
 Skrócony opis pliku:
 - rowery to infrastruktura rowerowa CPR/DDR/kontraruch itd.
 - rowery towerowe (literówka) to punkty, gdzie można bezpłatnie wynająć rowery towarowe: https://warszawa19115.pl/-/rowery-towarowe
-- stacje napraw to punkty, gdzie można proste naprawy samodzielnie wykonać: słupek z zestawem narzędzi i pompką, zazwyczaj przy stacjach Veturilo
+- stacje napraw to punkty, gdzie można proste naprawy samodzielnie wykonać: słupek z zestawem narzędzi i pompką, 
 
-Dane będą aktualizowane poprzez nadpisanie. 
+Dane będą aktualizowane poprzez nadpisanie.
+
+
+Zmiany i wersje:
+- Aktualizacja z dnia 11.10.2021
+    - Dodano gotowe trasy i linie nowe będące obecnie w budowie oraz drobne poprawki, pełna lista zmian w pliku *aktualizacja.md*
 
 Licencja zgodna z ODbL
