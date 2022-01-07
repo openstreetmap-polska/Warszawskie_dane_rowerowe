@@ -1,6 +1,48 @@
 # Pełna lista zamian i aktualizacji
 
 ***
+### Aktualizacja *** 07.01.2022***
+
+*** Trasy gotowe: ***
+al. KEN - przejazdy rowerowe na skrzyżowaniu z Bartoka i Surowieckiego
+Parku Kozłowskiego - ciąg pieszo-rowerowy
+Marymoncka (Podleśna – Smoleńskiego) – droga dla rowerów
+Idzikowskiego (Piaseczyńska – Sobieskiego) – droga dla rowerów
+Kowalczyka – droga dla rowerów
+Południowa Obwodnica Warszawy, Branickiego, Płaskowickiej (Przyczółkowa – Cynamonowa) – drogi dla rowerów
+Połczyńska – przejazd rowerowy przy Lustrzanej
+Marszałkowska – przejazd rowerowy przy Senatorskiej
+Popularna (Dziupli – Mikołajska) – remont ciągu pieszo-rowerowego
+al. Krakowska (Emaliowa-Gałczyńskiego) – droga dla rowerów i ciąg pieszo-rowerowy
+Konstruktorska (Wołoska – Postępu) – droga dla rowerów
+Poznańska – kontraruch rowerowy
+dzielnica Ochota - Tarczyńska, Asnyka, Dorotowska, Korotyńskiego – kontraruch rowerowy
+dzielnica Żoliborz - Bohomolca, Promyka, Koźmiana, Dygasińskiego, Sułkowskiego, Bytomska, Mierosławskiego, Boguckiego, Niegolewskiego, Wyspiańskiego, Siemiradzkiego, Dembińskiego, Rymkiewicza, Gawińskiego, Twardowskiego, Jelinka, Mysłowicka, Rybińskiego, Tucholska, Tucholska, Dziennikarska, Kniaźnina, Kaniowska, Lisa-Kuli, Lechonia, Lutosławskiego, Trentowskiego, Kochowskiego, Felińskiego, Urzędnicza, Solskiego, pl. Lelewela, Modrzejewskiej, Szczepanowskiego, Mscisławska, Kozietulskiego, Brodzińskiego, Małogoska, Opalińskiego - kontraruch rowerowy
+*** Trasy w budowie: ***
+Stalowa (metro Szwedzka – PKP Targówek) – ciąg pieszo-rowerowy
+Park Cichociemnych – droga dla rowerów
+Poprawki:
+Marymoncka – korekta przebiegu przy AWF
+Saska – nawierzchnia przy nr 6a
+Umińskiego – jeden kierunek ruchu przy Rechniewskiego
+Rydygiera – jeden kierunek przy Matysiakówny
+Park Rydza-Śmigłego – korekta nawierzchni
+Trasa S2 – korekty przebiegu
+Wergiliusza – dodana jako trasa „inna”
+Światowida – łącznik DDR do Lidla
+*** Trasy podwarszawskie: ***
+Michałowice (Parkowa, Nowozachodnia)
+Józefów (Wyszyńskiego, Szeroka)
+Wiązowna (Trasa S17)
+Ząbki (Park Szuberta, Szpitalna, Sobieskiego, Herberta, Andersena, Różana)
+Marki (trasa S8, Okólna)
+Zielonka (Bankowa, Wyszyńskiego)
+Jabłonna (Modlińska)
+Sulejówek (Paderewskiego)
+
+
+
+
 ### Aktualizacja *** 30.11.2021***
 
 ***Trasy gotowe:***

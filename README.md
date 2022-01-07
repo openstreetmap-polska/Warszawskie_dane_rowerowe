@@ -12,5 +12,6 @@ Dane będą aktualizowane poprzez nadpisanie.
 Zmiany i wersje:
 - Aktualizacja z dnia 11.10.2021
     - Dodano gotowe trasy i linie nowe będące obecnie w budowie oraz drobne poprawki, pełna lista zmian w pliku *aktualizacja.md*
-
+- Aktualizacja z dnia 07.01.2022
+    - Dodano gotowe trasy i linie nowe będące obecnie w budowie oraz drobne poprawki, pełna lista zmian w pliku *aktualizacja.md*
 Licencja zgodna z ODbL
