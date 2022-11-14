@@ -16,5 +16,7 @@ Zmiany i wersje:
     - Dodano gotowe trasy i linie nowe będące obecnie w budowie oraz drobne poprawki, pełna lista zmian w pliku *aktualizacja.md*
 - Aktualizacja z dnia 22.08.2022
     - Aktualizacja zgonie z najnowszymi danymi
+- Aktualizacja z dnia 14.11.2022
+    - Aktualizacja zgonie z najnowszymi danymi
 
 Licencja zgodna z ODbL
