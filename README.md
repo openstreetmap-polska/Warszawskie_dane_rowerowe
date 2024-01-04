@@ -18,5 +18,7 @@ Zmiany i wersje:
     - Aktualizacja zgodnie z najnowszymi danymi
 - Aktualizacja z dnia 14.11.2022
     - Aktualizacja zgodnie z najnowszymi danymi
+- Aktualizacja z dnia 03.01.2024
+    - Stan na koniec grudnia 2023
 
 Licencja zgodna z ODbL
