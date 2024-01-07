@@ -7,6 +7,7 @@ Skrócony opis pliku:
 - stacje napraw to punkty, gdzie można proste naprawy samodzielnie wykonać: słupek z zestawem narzędzi i pompką, 
 
 Dane będą aktualizowane poprzez nadpisanie.
+Licencja zgodna z ODbL
 
 
 Zmiany i wersje:
@@ -21,4 +22,17 @@ Zmiany i wersje:
 - Aktualizacja z dnia 03.01.2024
     - Stan na koniec grudnia 2023
 
-Licencja zgodna z ODbL
+## Porównanie danych z OpenStreetMap
+W folderze [osm_diffs](https://github.com/openstreetmap-polska/Warszawskie_dane_rowerowe/tree/main/osm_diffs) można znaleźć pliki w formacie GeoJSON.
+Nazwy plików odpowiadają dzielnicom Warszawy lub podwarszawskim miejscowościom.
+Są one automatycznie wygenerowane.
+W każdym z nich znajduje się infrastruktura rowerowa z pliku rowery_wawa/rowery.shp, której nie udało się dopasować do infrastruktury w OpenStreetMap.
+Czyli potencjalne braki do zmapowania w OSM.
+Część różnic wynika z różnic w sposobie mapowania.
+
+### Algorytm porównywania infrastruktury
+1. Linie są zamieniane na punkty co 1 metr wzdłuż odcinków.
+2. Aktualnie porównuje się zbiory punktów - nie bierze się pod uwagę typu infrastruktury. Czyli ulica, na której był pas rowerowy i została zbudowana DDR nie zostanie wykryta.
+3. Dla każdej linii w danych miejskich sprawdza się ile punktów nie da się odnaleźć. Szuka się w OSM z marginesem 10 metrów.
+4. Uznaje się za brakującą linię jeżeli nie uda się odnaleźć 20 punktów lub 20% długości.
+
