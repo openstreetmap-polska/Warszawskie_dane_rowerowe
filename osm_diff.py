@@ -7,7 +7,6 @@ from tqdm import tqdm
 
 import geojson
 from pathlib import Path
-import geopandas
 
 from funcy import log_durations
 
@@ -18,18 +17,15 @@ OVERPASS_URL = "https://overpass-api.de/api/interpreter"  # "http://localhost:12
 LINE_STEP_METRES = 1
 POINT_DISTANCE_METRES = 10
 MISSING_COUNT_THRESHOLD = 20
+MISSING_COUNT_PERCENTAGE_THRESHOLD = 0.2
 
 
 log_duration = log_durations(lambda msg: print("⌛ " + msg))
 
 
-@log_duration
-def generateGeojson():
-    data = geopandas.read_file(
-        shapefilePath,
-        crs='PROJCS["ETRS_1989_Poland_CS2000_Zone_7",GEOGCS["GCS_ETRS_1989",DATUM["D_ETRS_1989",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",7500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",21.0],PARAMETER["Scale_Factor",0.999923],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]',
-    )
-    return geojson.loads(data.to_crs("epsg:4326").to_json())
+def openDataGeojson():
+    with Path("geojson/latest.geojson").open() as f:
+        return geojson.load(f)
 
 
 @log_duration
@@ -170,7 +166,7 @@ def processDistrict(district, districtFeatures, osmDictPoint):
                             break
                 if not found:
                     missingCount += 1
-        if missingCount >= MISSING_COUNT_THRESHOLD:
+        if missingCount >= MISSING_COUNT_THRESHOLD or missingCount / count > MISSING_COUNT_PERCENTAGE_THRESHOLD:
             # print(count, missingCount, feature["properties"]["LOKALIZ"])
             missingFeatures.append(feature)
     outputMissingFeaturesGeojson(district, missingFeatures)
@@ -219,7 +215,7 @@ def generateOSMDiff(warsawData, osmDictPoint):
 
 def main():
     outputDirectory.mkdir(exist_ok=True)
-    warsawData = generateGeojson()
+    warsawData = openDataGeojson()
     osmData = getOSMDataFromOverpass()
     osmDictPoint = processOSMDataIntoDictPoint(osmData)
     generateOSMDiff(warsawData, osmDictPoint)

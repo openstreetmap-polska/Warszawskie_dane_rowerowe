@@ -36,7 +36,15 @@ def gitCheckout(gitHash: str):
     subprocess.check_output(["git", "checkout", gitHash])
 
 
-def generateGeojson(gitHash: str) -> Path:
+def generateCurrentGeojson(outputPath: Path):
+    data = geopandas.read_file(
+        shapefilePath,
+        crs='PROJCS["ETRS_1989_Poland_CS2000_Zone_7",GEOGCS["GCS_ETRS_1989",DATUM["D_ETRS_1989",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",7500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",21.0],PARAMETER["Scale_Factor",0.999923],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]',
+    )
+    data.to_crs("epsg:4326").to_file(outputPath, driver="GeoJSON", crs="epsg:4326")
+
+
+def generateGeojsonGit(gitHash: str) -> Path:
     outputPath = geojsonDirectory / f"{gitHash}.geojson"
     if outputPath.exists():
         print(f"File already exists: {outputPath}. Skipping")
@@ -45,11 +53,7 @@ def generateGeojson(gitHash: str) -> Path:
     if checkGitHashes()[0] != gitHash:
         gitCheckout(gitHash)
         needsReturn = True
-    data = geopandas.read_file(
-        shapefilePath,
-        crs='PROJCS["ETRS_1989_Poland_CS2000_Zone_7",GEOGCS["GCS_ETRS_1989",DATUM["D_ETRS_1989",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",7500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",21.0],PARAMETER["Scale_Factor",0.999923],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]',
-    )
-    data.to_crs("epsg:4326").to_file(outputPath, driver="GeoJSON", crs="epsg:4326")
+    generateCurrentGeojson(outputPath)
     if needsReturn:
         gitCheckout("-")
     return outputPath
@@ -124,8 +128,9 @@ def main():
     gitHashes = checkGitHashes()
     lastHash = gitHashes[0]
     previousHash = gitHashes[1]
-    lastPath = generateGeojson(lastHash)
-    previousPath = generateGeojson(previousHash)
+    lastPath = generateGeojsonGit(lastHash)
+    previousPath = generateGeojsonGit(previousHash)
+    generateCurrentGeojson(geojsonDirectory / "latest.geojson")
     generateDiff(lastPath, previousPath)
 
 
