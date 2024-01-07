@@ -30,15 +30,15 @@ def openDataGeojson():
 
 @log_duration
 def getOSMDataFromOverpass():
+    bbox = "(52,20.5,52.5,21.5)"
     query = f"""
     [out:json][timeout:25];
-    area[name="Warszawa"][admin_level=8]->.searchArea;
     (
-        way["cycleway"~"(lane|track)"](area.searchArea);
-        way[bicycle=designated](area.searchArea);
-        way["oneway:bicycle"=no](area.searchArea);
-        way[highway=cycleway](area.searchArea);
-        way[~"cycleway:(both|left|right)"~"lane"](area.searchArea);
+        way["cycleway"~"(lane|track)"]{bbox};
+        way[bicycle=designated]{bbox};
+        way["oneway:bicycle"=no]{bbox};
+        way[highway=cycleway]{bbox};
+        way[~"cycleway:(both|left|right)"~"lane"]{bbox};
     );
     convert item ::=::,::geom=geom(),_osm_type=type();
     out geom;
@@ -129,7 +129,9 @@ def processOSMDataIntoDictPoint(osmData) -> DictPoint:
 @log_duration
 def outputMissingFeaturesGeojson(name: str, missingFeatures):
     with (outputDirectory / (name + ".geojson")).open("w") as f:
-        geojson.dump(geojson.FeatureCollection(missingFeatures), indent=2, fp=f)
+        geojson.dump(
+            geojson.FeatureCollection(missingFeatures), fp=f, separators=(",", ":")
+        )
 
 
 @log_duration
@@ -166,7 +168,10 @@ def processDistrict(district, districtFeatures, osmDictPoint):
                             break
                 if not found:
                     missingCount += 1
-        if missingCount >= MISSING_COUNT_THRESHOLD or missingCount / count > MISSING_COUNT_PERCENTAGE_THRESHOLD:
+        if (
+            missingCount >= MISSING_COUNT_THRESHOLD
+            or missingCount / count > MISSING_COUNT_PERCENTAGE_THRESHOLD
+        ):
             # print(count, missingCount, feature["properties"]["LOKALIZ"])
             missingFeatures.append(feature)
     outputMissingFeaturesGeojson(district, missingFeatures)
@@ -193,24 +198,52 @@ def generateOSMDiff(warsawData, osmDictPoint):
         "Wola",
         "Żoliborz",
     ]
-    allDistricts = {
+    supportedTowns = [
+        "Góra Kalwaria",
+        "Izabelin",
+        "Jabłonna",
+        "Józefów",
+        "Kobyłka",
+        "Konstancin-Jeziorna",
+        "Legionowo",
+        "Lesznowola",
+        "Łomianki",
+        "Marki",
+        "Michałowice",
+        "Nieporęt",
+        "Nowy Dwór Mazowieck",
+        "Otwock",
+        "Ożarów Mazowiecki",
+        "Piaseczno",
+        "Piastów",
+        "Pruszków",
+        "Raszyn",
+        "Stare Babice",
+        "Sulejówek",
+        "Wiązowna",
+        "Wieliszew",
+        "Ząbki",
+        "Zielonka",
+    ]
+    areasAnalyzed = warsawDistricts + supportedTowns
+    allAreas = {
         feature["properties"]["DZIELNICA"] for feature in warsawData["features"]
     }
-    print(f"Skipping: {allDistricts - set(warsawDistricts)}")
-    warsawFeatures = [
+    print(f"Skipping: {allAreas - set(areasAnalyzed)}")
+    analyzedFeatures = [
         feature
         for feature in warsawData["features"]
         if feature["properties"]["BUDOWA"] != "tak"
         and feature["properties"]["TYP_TRASY"] != "inny"
-        and feature["properties"]["DZIELNICA"] in warsawDistricts
+        and feature["properties"]["DZIELNICA"] in areasAnalyzed
     ]
-    for district in tqdm(warsawDistricts):
+    for areaName in tqdm(areasAnalyzed):
         districtFeatures = [
             feature
-            for feature in warsawFeatures
-            if feature["properties"]["DZIELNICA"] == district
+            for feature in analyzedFeatures
+            if feature["properties"]["DZIELNICA"] == areaName
         ]
-        processDistrict(district, districtFeatures, osmDictPoint)
+        processDistrict(areaName, districtFeatures, osmDictPoint)
 
 
 def main():
