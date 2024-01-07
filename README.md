@@ -22,6 +22,9 @@ Zmiany i wersje:
 - Aktualizacja z dnia 03.01.2024
     - Stan na koniec grudnia 2023
 
+
+W pliku latestDiff.geojson znajduje się infrastruktura zmodyfikowana od ostatniej aktualizacji.
+
 ## Porównanie danych z OpenStreetMap
 W folderze [osm_diffs](https://github.com/openstreetmap-polska/Warszawskie_dane_rowerowe/tree/main/osm_diffs) można znaleźć pliki w formacie GeoJSON.
 Nazwy plików odpowiadają dzielnicom Warszawy lub podwarszawskim miejscowościom.
