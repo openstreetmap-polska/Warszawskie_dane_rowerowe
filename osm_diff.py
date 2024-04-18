@@ -9,6 +9,7 @@ import geojson
 from pathlib import Path
 
 from funcy import log_durations
+from slugify import slugify
 
 dataDirectory = Path("rowery_wawa")
 shapefilePath = dataDirectory / "rowery.shp"
@@ -128,7 +129,8 @@ def processOSMDataIntoDictPoint(osmData) -> DictPoint:
 
 @log_duration
 def outputMissingFeaturesGeojson(name: str, missingFeatures):
-    with (outputDirectory / (name + ".geojson")).open("w") as f:
+    nameSlugified = slugify(name, lowercase=False)
+    with (outputDirectory / (nameSlugified + ".geojson")).open("w") as f:
         geojson.dump(
             geojson.FeatureCollection(missingFeatures), fp=f, separators=(",", ":")
         )
