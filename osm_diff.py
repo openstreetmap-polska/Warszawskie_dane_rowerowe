@@ -43,7 +43,7 @@ def getOSMDataFromOverpass():
     convert item ::=::,::geom=geom(),_osm_type=type();
     out geom;
     """
-    response = httpx.post(OVERPASS_URL, data=dict(data=query))
+    response = httpx.post(OVERPASS_URL, data=dict(data=query), timeout=30.0)
     response.raise_for_status()
     return geojson.loads(response.text)["elements"]
 
