@@ -1,5 +1,46 @@
 # Pełna lista zamian i aktualizacji
 
+### Aktualizacja
+Stan na marzec 2024. 
+Zmiany od poprzedniej wersji (5.01.2024):
+
+Gotowe:
+- most pieszo-rowerowy (Karowa – Okrzei) – trasa nieoznakowana
+- Krasińskiego (skrzyżowanie z Powązkowską i Elbląską) – DDR
+- Pileckiego (Bociania – Kraski) – remont DDR
+- Kasprowicza (Nocznickiego - Przy Agorze) – DDR
+- Marymoncka (Lindego - Marymoncka 127) – DDR
+- Marsa – łącznik DDR przy Żołnierskiej
+- Kanał Żerański (granica miasta – Park Syrenki) – DDR
+- Eukaliptusowa (od Bergamotki) – DDR
+- Trasa Łazienkowska (południowy wiadukt nad Agrykolą) – DDR, CPR
+- Suwalska, Krasiczyńska, Tokarza – kontraruch
+- Śmiała – kontraruch
+- Gdecka, Komorska, Kawcza, Szczawnicka, Kutnowska, Pustelnicka – kontraruch Praga-Południe
+- Skwer Orszy – kontraruch
+- Pod Strzechą – kontraruch
+- Zielone Zacisze – kontraruch
+
+W budowie:
+- Domaniewska-Suwak (Postępu – Konstruktorska) – DDR
+- Puławska (Goworka – Rakowiecka) – DDR
+- Kolejowa – łącznik od Towarowej
+- Spartańska (Woronicza – Miączyńska) – DDR
+- Poprawki:
+- Park Szczęśliwicki – korekta DDR
+- Dzwonnicza – korekta kontraruchu
+- Dzika – łącznik do Słomińskiego
+- Węzeł Zakręt – DDR i CPR
+
+Pod Warszawą:
+- Ząbki (Skorupki)
+- Legionowo
+- Piaseczno (Kościuszki – remont, CPR do Żabieńca, Chylice, Siedlisko)
+- Michałowice (ciąg wzdłuż WKD do stacji Reguły)
+- Raszyn (Miklaszewskiego, Droga Hrabska)
+- Piastów-Pruszków (Warszawska, linia kolejowa, Kurca, Batalionów Chłopskich, Elektryczna, Mostowa, Waryńskiego)
+
+
 ***
 ### Aktualizacja *** 07.01.2022***
 
