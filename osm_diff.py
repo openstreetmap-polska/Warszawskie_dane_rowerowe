@@ -130,7 +130,11 @@ def processOSMDataIntoDictPoint(osmData) -> DictPoint:
 @log_duration
 def outputMissingFeaturesGeojson(name: str, missingFeatures):
     nameSlugified = slugify(name, lowercase=False)
-    with (outputDirectory / (nameSlugified + ".geojson")).open("w") as f:
+    outputFile = outputDirectory / (nameSlugified + ".geojson")
+    if len(missingFeatures) == 0 and outputFile.exists():
+        outputFile.unlink()
+        return
+    with outputFile.open("w") as f:
         geojson.dump(
             geojson.FeatureCollection(missingFeatures), fp=f, separators=(",", ":")
         )
