@@ -23,6 +23,7 @@ Zmiany i wersje:
     - Stan na koniec grudnia 2023
 - Aktualizacja z dnia 18.04.2024
   - Stan na marzec 2024
+- Aktualizacja z dnia 22.07.2024
 
 W pliku latestDiff.geojson znajduje się infrastruktura zmodyfikowana od ostatniej aktualizacji.
 

@@ -1,4 +1,75 @@
-# Pełna lista zamian i aktualizacji
+# Pełna lista zmian i aktualizacji
+
+### Aktualizacja
+Dane przesłane 2024-07-22.
+
+Zmiany od poprzedniej wersji (5.01.2023):
+Gotowe:
+- Kasprzaka – Wolska (Skierniewicka – Redutowa) – DDR i przejazdy
+- Ordona (Kasprzaka – Wolska) – pasy rowerowe
+- Gagarina (Parkowa – Czerniakowska) – DDR
+- Radzymińska (Krynoliny – Bystra) – łącznik DDR i jezdnia serwisowa
+- Wał Miedzeszyński (Fieldorfa – most Siekierkowski) – remont CPR
+- Modlińska 140 – łącznik DDR do Tarasowej
+- Hennela (skrzyżowanie z Silnikową) – DDR
+- Idzikowskiego – zjazd z DDR przy Czerniakowskiej
+- Barszczewskiej (Wyrzykowskiego – Ćwiklińskiej) – CPR
+- Anielewicza (Gibalskiego – Okopowa) – nieoznakowany ciąg
+- Żupnicza (Chodakowska – Żupnicza 26) – DDR
+- Białej Koniczyny (od Mostowskiego na południe) – DDR
+- Kanał Żerański (etap II do Długorzecznej) – CPR
+- Okularowa (rejon Szpaczej) – DDR
+- Świderska (skrzyżowanie z Ćmielowską) – DDR
+- Plac na Rozdrożu – DDR
+- Stępińska – kontraruch
+- Koszycka – kontraruch
+- Sienna – kontraruch
+- Litawora, Protazego, Benedykta, Gustawa, Sowizdrzała, Warsa – kontraruch Zacisze
+W budowie:
+- Port Czerniakowski – most nad kanałem portowym
+- Karowa – przejazd przez Wybrzeże Kościuszkowskie
+- Al. Jerozolimskie (Śmigłowca – Na Bateryjce, strona południowa) – remont DDR, kontrapas
+- Tramwaj na Rakowieckiej – DDR przy al. Niepodległości i Puławskiej, kontraruch na Wiśniowej
+- Tramwaj na Bitwy Warszawskiej 1920 r. – przebudowa CPR na DDR, przejazdy i remonty
+- Habicha, Posag 7 Panien – DDR
+- Kulskiego – łącznik DDR do parku
+- Rembielińska 8 – przejazd i remont DDR
+- Przecławska (Rozwadowskiego – Bukowiecka) – DDR
+- Mrówcza (Odeska – Panny Wodnej) – DDR
+- Mrówcza (Lucerny – Piechurów) – DDR
+- Panny Wodnej (Mrówcza – Zasadowa) – DDR
+- Warszawska (przejazd pod trasą S2) – DDR
+- Krasińskiego (rondo przy Przasnyskiej) – DDR
+- Redutowa (Wolska – Nakielska) – DDR
+- Towarowa (Sienna – Kolejowa) – DDR
+- Kanał Wystawowy – remont CPR
+- Chełmżyńska (wiadukt nad torami PKP) – DDR
+- Kamionkowska – kontraruch
+- Jagiellońska (serwisowa na Golędzinowie) – kontraruch
+- pl. Powstańców Warszawy – kontraruch od ul. Moniuszki
+- Dorycka – kontraruch 
+Poprawki:
+- Cytadela – CPR do Muzeum Historii Polski
+- Żwirki i Wigury – jednokierunkowe łączniki
+- Zapachu Bzu – oznakowanie DDR
+- Potoki – skrócenie DDR
+- Tokarzewskiego-Karaszewicza – korekta kierunku i nawierzchni
+- most Anny Jagiellonki, kładka nad Przyczółkową i Wałem Miedzeszyńskim – korekta typu trasy
+- Wał Miedzeszyński – korekta na CPR przy Fieldorfa, dodany łącznik do ścieżki nad Wisłą
+- Wybrzeże Kościuszkowskie – uzupełnienie odcinka w rejonie Nowego Zjazdu, korekty nawierzchni
+- Bulwary – korekta oznakowania i nawierzchni
+- Domaniewska, Suwak, Gierdziejewskiego – usunięcie z mapy odcinków, których budowa się nie rozpoczęła
+- pozostałe poprawki zgłoszone przez użytkowników mapy 
+Pod Warszawą:
+- Konstancin-Jeziorna (Powsińska)
+- Piastów (Tuwima)
+- Pruszków (Bohaterów Warszawy, al. Jerozolimskie)
+- Wiązowna (Jana Pawła II)
+- Kobyłka – cała sieć
+- Wołomin – cała sieć
+- Radzymin (Weteranów)
+- Nieporęt (Wojska Polskiego, Fortowa, wał nad Zalewem Zegrzyńskim)
+
 
 ### Aktualizacja
 Stan na marzec 2024. 
