@@ -223,11 +223,13 @@ def generateOSMDiff(warsawData, osmDictPoint):
         "Piaseczno",
         "Piastów",
         "Pruszków",
+        "Radzymin",
         "Raszyn",
         "Stare Babice",
         "Sulejówek",
         "Wiązowna",
         "Wieliszew",
+        "Wołomin",
         "Ząbki",
         "Zielonka",
     ]
