@@ -11,6 +11,7 @@ import subprocess
 dataDirectory = Path("rowery_wawa")
 shapefilePath = dataDirectory / "rowery.shp"
 geojsonDirectory = Path("geojson")
+geojsonDirectory.mkdir(exist_ok=True)
 
 
 def headHash() -> str:
