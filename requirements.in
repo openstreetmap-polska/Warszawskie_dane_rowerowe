@@ -1,6 +1,7 @@
 funcy
 geojson
 geopandas<1
+h3
 httpx
 python-slugify
 tqdm

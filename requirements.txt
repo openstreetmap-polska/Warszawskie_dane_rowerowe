@@ -29,6 +29,8 @@ geopandas==0.14.4
     # via -r requirements.in
 h11==0.14.0
     # via httpcore
+h3==3.7.7
+    # via -r requirements.in
 httpcore==1.0.5
     # via httpx
 httpx==0.27.0
