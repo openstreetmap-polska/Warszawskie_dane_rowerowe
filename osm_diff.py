@@ -58,7 +58,9 @@ def h3LineLatLng(start: tuple[float, float], end: tuple[float, float]) -> set[st
     return h3LineLatLng(start, middle) | h3LineLatLng(middle, end)
 
 
-def processLineIntoH3Set(line: list[tuple[float, float]], result: set[str], neighbourhood_size: int = 0) -> set[str]:
+def processLineIntoH3Set(
+    line: list[tuple[float, float]], result: set[str], neighbourhood_size: int = 0
+) -> set[str]:
     for pointA, pointB in zip(line[:-1], line[1:]):
         for point in h3LineLatLng(pointA, pointB):
             result.update(h3.k_ring(point, neighbourhood_size))
@@ -73,7 +75,9 @@ def processOSMDataIntoH3Set(osmData) -> set[str]:
             print(f'Unsupported geometry type {element["geometry"]["type"]}')
             continue
         coords = element["geometry"]["coordinates"]
-        result = processLineIntoH3Set(coords, result, neighbourhood_size=OSM_NEIGHBOURHOOD_SIZE)
+        result = processLineIntoH3Set(
+            coords, result, neighbourhood_size=OSM_NEIGHBOURHOOD_SIZE
+        )
     return result
 
 
