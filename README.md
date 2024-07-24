@@ -36,8 +36,8 @@ Czyli potencjalne braki do zmapowania w OSM.
 Część różnic wynika z różnic w sposobie mapowania.
 
 ### Algorytm porównywania infrastruktury
-1. Linie są zamieniane na punkty co 1 metr wzdłuż odcinków.
-2. Aktualnie porównuje się zbiory punktów - nie bierze się pod uwagę typu infrastruktury. Czyli ulica, na której był pas rowerowy i została zbudowana DDR nie zostanie wykryta.
-3. Dla każdej linii w danych miejskich sprawdza się ile punktów nie da się odnaleźć. Szuka się w OSM z marginesem 10 metrów.
-4. Uznaje się za brakującą linię jeżeli nie uda się odnaleźć 20 punktów lub 20% długości.
+1. Linie są zamieniane na [obszary H3](https://h3geo.org/) przez które przechodzą. Dla OSM z buforem.
+2. Aktualnie porównuje się zbiory obszarów - nie bierze się pod uwagę typu infrastruktury. Czyli ulica, na której był pas rowerowy i została zbudowana DDR nie zostanie wykryta.
+3. Dla każdej linii w danych miejskich sprawdza się ile obszarów nie da się odnaleźć
+4. Uznaje się za brakującą linię jeżeli nie uda się odnaleźć 10 obszarów lub 20% wszystkich.
 
