@@ -1,0 +1,7 @@
+venv
+.ruff_cache
+.idea
+.pytest_cache
+osm_diffs
+geojson
+rowery_wawa

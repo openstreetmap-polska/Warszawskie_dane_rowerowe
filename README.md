@@ -41,3 +41,7 @@ Część różnic wynika z różnic w sposobie mapowania.
 3. Dla każdej linii w danych miejskich sprawdza się ile obszarów nie da się odnaleźć
 4. Uznaje się za brakującą linię jeżeli nie uda się odnaleźć 10 obszarów lub 20% wszystkich.
 
+## Docker
+```
+make docker-build docker-run
+```
