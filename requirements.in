@@ -3,5 +3,6 @@ geojson
 geopandas<1
 h3
 httpx
+pytest
 python-slugify
 tqdm

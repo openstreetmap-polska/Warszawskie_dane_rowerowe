@@ -16,8 +16,8 @@ outputDirectory = Path("osm_diffs")
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"  # "http://localhost:12345/api/interpreter"
 MISSING_COUNT_THRESHOLD = 10
 MISSING_COUNT_PERCENTAGE_THRESHOLD = 0.2
-H3_RESOLUTION = 11
-NEIGHBOURHOOD_SIZE = 1
+H3_RESOLUTION = 12
+OSM_NEIGHBOURHOOD_SIZE = 1
 
 
 log_duration = log_durations(lambda msg: print("⌛ " + msg))
@@ -28,7 +28,6 @@ def openDataGeojson():
         return geojson.load(f)
 
 
-@log_duration
 def getOSMDataFromOverpass():
     bbox = "(52,20.5,52.5,21.5)"
     query = f"""
@@ -43,17 +42,26 @@ def getOSMDataFromOverpass():
     convert item ::=::,::geom=geom(),_osm_type=type();
     out geom;
     """
-    response = httpx.post(OVERPASS_URL, data=dict(data=query), timeout=30.0)
-    response.raise_for_status()
-    return geojson.loads(response.text)["elements"]
+    with log_duration("download data from Overpass"):
+        response = httpx.post(OVERPASS_URL, data=dict(data=query), timeout=30.0)
+        response.raise_for_status()
+    with log_duration("parsing Overpass response"):
+        return geojson.loads(response.text)["elements"]
 
 
-def processLineIntoH3Set(line: list[tuple[float, float]], result: set[str]) -> set[str]:
+def h3LineLatLng(start: tuple[float, float], end: tuple[float, float]) -> set[str]:
+    startH3 = h3.geo_to_h3(start[1], start[0], H3_RESOLUTION)
+    endH3 = h3.geo_to_h3(end[1], end[0], H3_RESOLUTION)
+    if startH3 == endH3 or h3.h3_distance(startH3, endH3) == 1:
+        return {startH3, endH3}
+    middle = ((start[0] + end[0]) / 2, (start[1] + end[1]) / 2)
+    return h3LineLatLng(start, middle) | h3LineLatLng(middle, end)
+
+
+def processLineIntoH3Set(line: list[tuple[float, float]], result: set[str], neighbourhood_size: int = 0) -> set[str]:
     for pointA, pointB in zip(line[:-1], line[1:]):
-        start = h3.geo_to_h3(pointA[1], pointA[0], H3_RESOLUTION)
-        end = h3.geo_to_h3(pointB[1], pointB[0], H3_RESOLUTION)
-        for point in h3.h3_line(start, end):
-            result.update(h3.k_ring(point, NEIGHBOURHOOD_SIZE))
+        for point in h3LineLatLng(pointA, pointB):
+            result.update(h3.k_ring(point, neighbourhood_size))
     return result
 
 
@@ -65,7 +73,7 @@ def processOSMDataIntoH3Set(osmData) -> set[str]:
             print(f'Unsupported geometry type {element["geometry"]["type"]}')
             continue
         coords = element["geometry"]["coordinates"]
-        result = processLineIntoH3Set(coords, result)
+        result = processLineIntoH3Set(coords, result, neighbourhood_size=OSM_NEIGHBOURHOOD_SIZE)
     return result
 
 
@@ -87,7 +95,9 @@ def processDistrict(district, districtFeatures, osmH3Set: set[str]):
     for feature in districtFeatures:
         featureH3Set = set()
         if feature["geometry"]["type"] == "LineString":
-            featureH3Set = processLineIntoH3Set(feature["geometry"]["coordinates"], featureH3Set)
+            featureH3Set = processLineIntoH3Set(
+                feature["geometry"]["coordinates"], featureH3Set
+            )
         elif feature["geometry"]["type"] == "MultiLineString":
             for line in feature["geometry"]["coordinates"]:
                 featureH3Set = processLineIntoH3Set(line, featureH3Set)
@@ -95,7 +105,8 @@ def processDistrict(district, districtFeatures, osmH3Set: set[str]):
             print(f'Unsupported geometry type {feature["geometry"]["type"]}')
             continue
         count = len(featureH3Set)
-        missingCount = count - len(osmH3Set & featureH3Set)
+        missing = featureH3Set - osmH3Set
+        missingCount = len(missing)
         if (
             missingCount >= MISSING_COUNT_THRESHOLD
             or missingCount / count > MISSING_COUNT_PERCENTAGE_THRESHOLD
