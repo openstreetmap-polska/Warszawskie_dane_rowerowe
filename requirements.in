@@ -1,3 +1,4 @@
+fiona==1.9.6
 funcy
 geojson
 geopandas<1

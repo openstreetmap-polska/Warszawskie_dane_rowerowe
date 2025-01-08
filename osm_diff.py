@@ -50,9 +50,9 @@ def getOSMDataFromOverpass():
 
 
 def h3LineLatLng(start: tuple[float, float], end: tuple[float, float]) -> set[str]:
-    startH3 = h3.geo_to_h3(start[1], start[0], H3_RESOLUTION)
-    endH3 = h3.geo_to_h3(end[1], end[0], H3_RESOLUTION)
-    if startH3 == endH3 or h3.h3_distance(startH3, endH3) == 1:
+    startH3 = h3.latlng_to_cell(start[1], start[0], H3_RESOLUTION)
+    endH3 = h3.latlng_to_cell(end[1], end[0], H3_RESOLUTION)
+    if startH3 == endH3 or h3.grid_distance(startH3, endH3) == 1:
         return {startH3, endH3}
     middle = ((start[0] + end[0]) / 2, (start[1] + end[1]) / 2)
     return h3LineLatLng(start, middle) | h3LineLatLng(middle, end)
@@ -63,7 +63,7 @@ def processLineIntoH3Set(
 ) -> set[str]:
     for pointA, pointB in zip(line[:-1], line[1:]):
         for point in h3LineLatLng(pointA, pointB):
-            result.update(h3.k_ring(point, neighbourhood_size))
+            result.update(h3.grid_ring(point, neighbourhood_size))
     return result
 
 
