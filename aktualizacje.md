@@ -1,5 +1,138 @@
 # Pełna lista zmian i aktualizacji
 
+### Aktualizacja danych od listopada 2024 do stycznia 2025
+####  Gotowe:
+- Łopuszańska (Działkowa – Przedpole) – DDR
+- Szyszkowa (Działkowa – Rebusowa) – DDR
+- Umińskiego (Bora-Komorowskiego – Znanieckiego) – przebudowa DDR
+- Kobiałka (most nad Kanałem Żerańskim) – DDR
+- Mrówcza (Lucerny – Piechurów) – DDR
+- Ostrobramska (skrzyżowanie z Poligonową) – DDR
+- Karowa (Wisłostrada – Dobra) – DDR
+- Kiedacza-Nugat (Kopcińskiego – Rosoła) – DDR
+- Głębocka (Trasa Toruńska – CH Targówek) – DDR
+- Domaniewska-Suwak (Postępu – Konstruktorska) – DDR
+- Racławicka (Żwirki i Wigury – Balonowa) – remont DDR
+- Przecławska (Rozwadowskiego – Bukowiecka) – DDR
+- Logarytmiczna (Suwak – Cybernetyki) – DDR
+- Kocjana – łączniki DDR z jezdnią
+- Gierdziejewskiego – przejazd przez Warszawską
+- Kolumba, Gidzińskiego, Tańskiego, Zarankiewicza, Szybowcowa, Astronautów, Krańcowa, Boryny, Stokrotki, Skromna, Łobeska, Milanowska, Geologiczna, Kazimierza Wielkiego – kontraruch Włochy
+- Alzacka, Złoczowska, Berneńska, Rumuńska, Lotaryńska, Rapperswilska, Kanadyjska, Rzymska – kontraruch Saska Kępa
+- Wilcza, Dmochowskiego, Miechowska – kontraruch
+- Leonarda, Krzyżanowskiego – kontraruch
+- Siedzikówny „Inki” – kontraruch
+- Mokra, Szczepanika – kontraruch
+- Rutkiewicz – kontraruch
+- Czeczota – kontraruch
+- Okrętowa – kontraruch
+
+#### W budowie:
+- Al. Jana Pawła II (Nowolipki – Anielewicza) – remont DDR
+- Broniewskiego (Romaszewskiego – Trasa S8) – remont DDR
+- Fieldorfa (Nowaka-Jeziorańskiego – Perkuna) – remont DDR
+- Światowida (Mehoffera – Świętosławskiego) – remont DDR
+- Równoległa (Łopuszańska – Szybka) – DDR
+- Tunelowa (rejon Dworca Zachodniego) – DDR
+- Habicha (Giserska – Silnikowa) – DDR
+- Kazimierza Wielkiego, Geologiczna – kontraruch
+
+#### Poprawki:
+- Posag 7 Panien (łącznik do pasów rowerowych)
+- Kadetów (zmiana CPR na DDR przy kościele)
+- Dalibora – likwidacja DDR
+- Arabska, Indyjska – rezygnacja z kontraruchu
+
+#### Pod Warszawą:
+- Piaseczno – cała sieć
+- Konstancin-Jeziorna – DW721 w budowie
+- Lesznowola – cała sieć
+- Raszyn – cała sieć
+- Nadarzyn – Nad Utratą, Brzozowa, Sękocińska
+- Michałowice – cała sieć
+- Karczew – cała sieć
+- Otwock – cała sieć
+- Wiązowna – cała sieć
+- Halinów – cała sieć
+- Sulejówek – Trakt Brzeski
+- Ząbki – Kwiatowa, Sikorskiego, Piłsudskiego, Park Andersena, Szwoleżerów, Stefczyka
+- Jabłonna – Edukacyjna
+
+### Aktualizacja danych od lipca 2024 do listopada 2024
+#### Gotowe:
+- Wydawnicza – przejazd przy PKP
+- Kulskiego (łącznik do parku) – DDR
+- al. Jana Pawła II (przy Q22) – DDR
+- Warszawska (pod trasą S2) – DDR
+- Kanał Wystawowy – remont DDR
+- Holzera, Herbu Korczak – DDR
+- Habicha, Posag 7 Panien – DDR
+- Piastów Śląskich – DDR/CPR
+- Wólczyńska (Nocznickiego – Sokratesa) – DDR
+- Spartańska (Woronicza – Miączyńska) – DDR
+- Al. Jerozolimskie (Śmigłowca - Na Bateryjce, str. płd.) – remont DDR
+- Karowa/Wybrzeże Szczecińskie – przejazd + remont DDR
+- Ordona (Stańczyka – Ordona 5a) – pasy rowerowe
+- Orląt Lwowskich – przebudowa DDR na dojeździe do wiaduktu
+- Cetysówny (na południe od Dywizjonu AK „Jeleń”) – DDR
+- Lipowa, Wąska, Szarych Szeregów, Przechodnia, plac Wojska Polskiego x2, Współczesna, Powstańców Warszawy, Armii Krajowej – kontraruch Wesoła
+- Joselewicza, Groszowicka, Kamionkowska, Rybna, Kałuszyńska, Skaryszewska, Chodakowska, Chodakowska – kontraruch SPPN Kamionek
+- Kubańska, Szczuczyńska, Meksykańska, Wandy, Obrońców, Styki, Poselska, Królowej Aldony, Katowicka, Dąbrowiecka, Nobla, Irlandzka, Walecznych, Czeska, Gruzińska, Berezyńska, Estońska, Lipska, Finlandzka, Łotewska, Jakubowska, al. Waszyngtona – kontraruch SPPN Saska Kępa
+- Topolowa, Juranda ze Spychowa, Danusi, Tapetowa – kontraruch Białołęka
+- Suwalska, Turmoncka, Julianowska, Nadwiślańska, Bystra – kontraruch Targówek
+- Korczaka, Żelazna – kontraruch
+- Szkutników – kontraruch
+- Dorycka – kontraruch
+- Tolkiena – kontraruch
+- Jagiellońska (serwisowa przy Zatylnej) – kontraruch
+
+#### W budowie:
+- Nowoczłuchowska (Lazurowa – Szeligowska) – DDR
+- Łopuszańska (Działkowa – Przedpole) – DDR
+- Andersa (Długa – Świętojerska) – DDR
+- Holzera (od Branickiego) – DDR
+- Kinetyczna – CPR
+- droga wzdłuż torów (Suwak – Cybernetyki) – DDR
+- Domaniewska (Samochodowa – Wołoska) – DDR
+- Kiedacza – Nugat (Kopcińskiego – Rosoła) – DDR
+- Ostrobramska (skrzyżowanie z Poligonową) – DDR
+- Jagiellońska – przejazdy przy Budzyńskiej-Tylickiej i Kotsisa
+- Głębocka (Trasa Toruńska – CH Targówek) – DDR
+- Znana, Stroma, Monte Cassino, Batalionu AK „Parasol”, Tyszkiewicza, Szymczaka, Szarych Szeregów, Sołtyka, Młynarska, Bitwy pod Lenino, Pańska, Dobrzańskiego, Ludwiki, Sokołowska, Rabsztyńska, Syreny – kontraruch Wola
+- Rapperswilska, Kanadyjska, Arabska, Alzacka, Złoczowska, Berneńska, Rzymska, Lotaryńska, Indyjska, Rumuńska - kontraruch Saska Kępa
+- Mokra, Szczepanika – kontraruch
+- Chocimska – kontraruch
+
+#### Poprawki:
+- Al. Jerozolimskie – korekta zakresu remontu przy z ul. Śmigłowca
+- Postępu – łącznik od Marynarskiej
+- Jutrzenki – likwidacja kontraruchu
+- Gościniec, Fabryczna, Rumiankowa (Wesoła) – likwidacja DDR/CPR
+- Dewajtis, Kaskadowa, Oksywska, Księżycowa, Bracka – dodana jako trasa „inna”
+
+#### Pod Warszawą:
+- Legionowo – cała sieć
+- Nowy Dwór Mazowiecki – cała sieć
+- Jabłonna – Żwirowa, Sołecka, Kolejowa
+- Wieliszew – cała sieć
+- Nieporęt – Warszawska, Kolejowa, Wczasowa, Spacerowa
+- Łomianki – al. Chopina, Armii Poznań, Warszawska
+- Izabelin – Brukowa
+- Stare Babice – Ekologiczna, Estrady, Radiowa, Rekreacyjna
+- Radzymin – Wołomińska, Majowa, Mickiewicza, Strzelców Wileńskich, Traugutta, Żeligowskiego, al. Jana Pawła II, Słowackiego, Maczka, Szkolna, Konopnickiej, Weteranów, al. Kaczyńskiego
+- Wołomin – Szosa Jadowska, Fieldorfa, Krasickiego
+- Kobyłka – Chrobrego
+- Zielonka – Piłsudskiego, Wyszyńskiego, Leśna, Kilińskiego
+- Marki – Sowińskiego, Mokra, Duża, Piłsudskiego, Legionowa, Puławskiego
+- Sulejówek – cała sieć
+- Halinów – Warszawska
+- Wiązowna – Wspólna
+- Józefów – Malinowskiego
+- Pruszków – al. Armii Krajowej, Andrzeja, Ewy, 3 Maja, al. Wojska Polskiego, Zimińskiej-Sygietyńskiej, Sienkiewicza, Staszica, Prusa, Ireny, Ryszarda
+- Raszyn – Sokołowska
+- Piaseczno – Pomorska, al. Pokoju, Urbanistów, Główna, Rekreacyjna, Cyraneczki
+- Lesznowola – Plonowa, Kuropatwy (w budowie)
+
 ### Aktualizacja
 Dane przesłane 2024-07-22.
 
