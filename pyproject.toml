@@ -1,0 +1,22 @@
+[project]
+name = "warszawskie-dane-rowerowe"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fiona==1.9.6",
+    "funcy>=2.0",
+    "geojson>=3.2.0",
+    "geopandas<1",
+    "h3>=4.2.2",
+    "httpx>=0.28.1",
+    "python-slugify>=8.0.4",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+]
+
