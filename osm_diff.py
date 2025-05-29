@@ -143,6 +143,8 @@ def generateOSMDiff(warsawData, osmH3Set: set[str]):
         "Żoliborz",
     ]
     supportedTowns = [
+        "Brwinów",
+        "Celestynów",
         "Dębe Wielkie",
         "Halinów",
         "Góra Kalwaria",

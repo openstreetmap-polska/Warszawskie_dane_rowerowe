@@ -1,5 +1,78 @@
 # Pełna lista zmian i aktualizacji
 
+### Aktualizacja danych przesłana 23.05.2025. Zmiany od poprzedniej wersji (10.01.2025):
+
+#### Gotowe:
+- Droga bez nazwy (Pałuków – Szafrańców) – DDR
+- Stryjeńskich (Belgradzka – Kazury 7) – przejazdy rowerowe i DDR, jezdnie serwisowe
+- Arciszewskiego, Galileusza – kontraruch
+- al. Jana Pawła II (Nowolipki – Anielewicza) – przebudowa DDR
+- Tunelowa – DDR
+- Powsińska – łącznik do Konstancińskiej
+- Andersa (Długa – Świętojerska) – DDR
+- Jana Kazimierza – DDR
+- Broniewskiego (Romaszewskiego - Trasa S7) – remont DDR
+- Domaniewska (Postępu – Suwak), Suwak – DDR
+- Żupnicza (nr 27 – 32) – DDR
+- Redutowa (Wolska – Nakielska) – DDR
+- Światowida (Mehoffera - Świętosławskiego) – remont DDR
+- Habicha (Posag 6 Panien – Silnikowa) – DDR
+- Fieldorfa (Nowaka-Jeziorańskiego - Perkuna) – remont DDR
+- Krasińskiego/Przasnyska – przejazd rowerowy + rezerwa
+- Wóycickiego (Pułkowa - Żubrowa) – remont pasów rowerowych
+
+#### W budowie:
+- Andersa (Nowolipki – Dawidowskiego) i Muranowska (Andersa – Bonifraterska) – DDR
+- Bonifraterska (Sapieżyńska – Międzyparkowa) – pasy rowerowe
+- Kwartał Złota-Zgoda – kontraruch rowerowy i uspokojenie ruchu, przejazdy rowerowe przez
+- Marszałkowska/Złota – przejazd rowerowy
+- Marszałkowska/Sienkiewicza – przejazd rowerowy
+- Woronicza/Spartańska – przejazdy rowerowe
+- Wschodu Słońca – DDR
+- Przyczółkowa/Pałacowa – przejazdy rowerowe
+- Postępu (nr 10 – 9A) – DDR
+- Chodecka/Matki Teresy z Kalkuty – remont DDR i przejazdy rowerowe
+- Dolina Służewiecka/al. Wilanowska – przejazdy rowerowe
+- Nocznickiego/Wólczyńska – przejazdy rowerowe
+- Wolska/Młynarska/Al. Solidarności – przejazdy rowerowe
+- Strażacka (Żołnierska – Zesłańców Polskich) – DDR i przejazdy rowerowe
+- Śmiała, Skwer Bergera „Goliata” – łącznik i kontraruch rowerowy
+- pl. Bankowy (Elektoralna – zjazd do ratusza) – remont DDR
+- Al. Stanów Zjednoczonych (Bajońska – Saska) – remont DDR
+- Al. Stanów Zjednoczonych/Międzynarodowa – remont DDR
+
+#### Poprawki:
+- Wejnerta – kontraruch
+- Cierlicka – kontraruch
+- Turmoncka i Rohatyńska – kontraruch
+- Dynasy – kontraruch
+- Kopernika – kontraruch
+- Mrówcza – korekta przebiegu
+- Idzikowskiego – korekta błędnego kierunku
+- Łasaka – korekta przy Stoczniowców
+- Górczewska – korekta nawierzchni przy Konarskiego
+- Broniewskiego – korekta zakresu remontu
+- Przemysłowa – łącznik do Trasy Łazienkowskiej
+- Kościeszów – korekta typu trasy
+- Winorośli – dodany łącznik do Leśnej Polanki
+- Burakowska – dodano wybudowany DDR
+- Orlińskiego – likwidacja substandardowej DDR
+- Kirasjerów – kontraruch
+- Wał Miedzeszyński – korekta nawierzchni
+- Gąsek – korekta nawierzchni
+- Kanał Żerański – korekta nawierzchni
+- Karuzela – dodanie trasy (inne)
+- Działkowa – korekta przebiegu
+- Pod Warszawą:
+- Lesznowola - Storczykowa, Gołębia, Raszyńska, Zdrowotna, Podleśna
+- Pruszków – Przyszłości, Brzozowa, Działkowa, Błońska, Bryły, Powstańców, al. Wojska Polskiego, Pogodna, Plantowa, Staszica
+- Michałowice – Pruszkowska, Rekreacyjna, Poprzeczna, Szeroka
+- Brwinów – Pruszkowska, Wolności, Solidarności, Główna
+- Nadarzyn – Nad Utratą, Braci Leśnej, Trasa S7, Brzozowa, Kościelna, pl. Poniatowskiego, Krótka, Warszawska, Sitarskich, Kota Filemona, Pruszkowska, Wierzbowa, Plantowa, Graniczna, Mszczonowska, Główna, Platanowa
+- Jabłonna – Przechodnia
+- Zielonka – Literacka
+- Ząbki – Podleśna, Wybickiego, Andersena, Dzika, Ułańska, Jesienna, Błękitna, Jeziorna, Brukowa, Zimna
+
 ### Aktualizacja danych od listopada 2024 do stycznia 2025
 ####  Gotowe:
 - Łopuszańska (Działkowa – Przedpole) – DDR
@@ -180,7 +253,7 @@ W budowie:
 - Kamionkowska – kontraruch
 - Jagiellońska (serwisowa na Golędzinowie) – kontraruch
 - pl. Powstańców Warszawy – kontraruch od ul. Moniuszki
-- Dorycka – kontraruch 
+- Dorycka – kontraruch
 Poprawki:
 - Cytadela – CPR do Muzeum Historii Polski
 - Żwirki i Wigury – jednokierunkowe łączniki
@@ -192,7 +265,7 @@ Poprawki:
 - Wybrzeże Kościuszkowskie – uzupełnienie odcinka w rejonie Nowego Zjazdu, korekty nawierzchni
 - Bulwary – korekta oznakowania i nawierzchni
 - Domaniewska, Suwak, Gierdziejewskiego – usunięcie z mapy odcinków, których budowa się nie rozpoczęła
-- pozostałe poprawki zgłoszone przez użytkowników mapy 
+- pozostałe poprawki zgłoszone przez użytkowników mapy
 Pod Warszawą:
 - Konstancin-Jeziorna (Powsińska)
 - Piastów (Tuwima)
@@ -205,7 +278,7 @@ Pod Warszawą:
 
 
 ### Aktualizacja
-Stan na marzec 2024. 
+Stan na marzec 2024.
 Zmiany od poprzedniej wersji (5.01.2024):
 
 Gotowe:
@@ -349,25 +422,25 @@ Kadetów – rozwiązanie umowy z wykonawcą (usunięcie trasy "w budowie")
 
 ***Trasy gotowe:***
 *Światowida (Strumykowa – pętla Winnica) - DDR (droga dla rowerów)
-*Puławska (w rejonie budynku 186) – DDR 
-*Zaruby (Kabacka – Iwanowa-Szajnowicza) – DDR 
+*Puławska (w rejonie budynku 186) – DDR
+*Zaruby (Kabacka – Iwanowa-Szajnowicza) – DDR
 *Nowaka-Jeziorańskiego (w rejonie szkoły) – DDR i CPR (ciąg pieszo rowerowy)
-*Warszawski Świt – DDR 
+*Warszawski Świt – DDR
 *Śpiewna – kontraruch rowerowy
 
-***Trasy w budowie:*** 
-*Idzikowskiego (Piaseczyńska – Sobieskiego) – DDR 
-*Abrahama (Bora-Komorowskiego – Fieldorfa) – pasy rowerowe +likwidacja fragmentu CPR 
-*al. Krakowska (Emaliowa – Gałczyńskiego) – CPR 
-*Konstruktorska (Wołoska – Postępu) – DDR 
+***Trasy w budowie:***
+*Idzikowskiego (Piaseczyńska – Sobieskiego) – DDR
+*Abrahama (Bora-Komorowskiego – Fieldorfa) – pasy rowerowe +likwidacja fragmentu CPR
+*al. Krakowska (Emaliowa – Gałczyńskiego) – CPR
+*Konstruktorska (Wołoska – Postępu) – DDR
 *Harfowa (Grójecka – Włodarzewska) – kontrapas rowerowy
-*Zdziarska (rzeka Długa – Verdiego) – DDR 
+*Zdziarska (rzeka Długa – Verdiego) – DDR
 
-***Poprawki:*** 
-*objazd budowy stacji metra Kondratowicza 
-*Sobieskiego-Nałęczowska – korekta rodzaju nawierzchni 
-*Radzymińska – łącznik przy Karkonoszy 
-*Elbląska – skrócenie DDR 
+***Poprawki:***
+*objazd budowy stacji metra Kondratowicza
+*Sobieskiego-Nałęczowska – korekta rodzaju nawierzchni
+*Radzymińska – łącznik przy Karkonoszy
+*Elbląska – skrócenie DDR
 *Marywilska – skrócenie pasa rowerowego
-*Nowogrodzka – kontraruch do Parkingowej 
+*Nowogrodzka – kontraruch do Parkingowej
 *Al. Jerozolimskie, Popularna, Wolska – korekty przebiegu
