@@ -1,5 +1,92 @@
 # Pełna lista zmian i aktualizacji
 
+### Wykaz zmian (w porównaniu do wersji z 23.05.2025):
+#### Gotowe:
+- Obrońców Tobruku/Powązkowska - przebudowa DDR i CPR
+- Równoległa/Szybka – DDR
+- Giserska aka Odlewnicza – DDR
+- al. Krakowska nr 271 – przebudowa DDR
+- Słomińskiego/Pamiętajcie o Ogrodach – budowa przejazdu i przebudowa DDR
+- Sobieskiego (Mangalia 1A - Czarnomorska, str. zachodnia) – remont DDR
+- Towarowa (rej. poczty) - CPR
+- Anielewicza/Esperanto – łącznik DDR
+- Płowiecka (rondo Mościckiego - Płowiecka 84) – remont DDR
+- Dembego – łączniki do Kabackiej i Iwanowa-Szajnowicza
+- Rosoła – łącznik do Wesołej
+- Waryńskiego – łącznik do Pola Mokotowskiego
+- Most w porcie Czerniakowskim – łącznik DDR i kontraruch
+- Konstruktorska/Gandalfa – przejazd rowerowy
+- Człuchowska (Lazurowa – Szeligowska) – obustronne DDR i przejazdy
+- Dolina Służewiecka – łącznik do ul. Fosa
+- Dolina Służewiecka/Wilanowska – przejazdy rowerowe i przebudowa DDR
+- Postępu (rondo Żabczyńskiego - Postępu 9) – DDR
+- Wschodu Słońca (Jutrzenki – Al. Jerozolimskie) – DDR i przejazd rowerowy
+- pl. Bankowy (Elektoralna – pl. Bankowy 3/5) – remont DDR
+- al. Polski Walczącej/Batalionu AK "Bałtyk"/al. Becka - DDR
+- Sanguszki (Wybrzeże Gdańskie – Zakroczymska) – CPR i pas rowerowy
+- Woronicza/Spartańska – przejazdy rowerowe
+- Bodzanty – łącznik DDR do Wolskiej
+- Wóycickiego (Wólczyńska - Palisadowa) – remont pasów rowerowych
+- Ostrobramska (rej. Zajezdni) - przebudowa DDR
+- Panny Wodnej (Zasadowa – Mrówcza) – DDR i przejazdy
+- Gwiaździsta (nr 31-35) – przejazd rowerowy
+- Jagiellońska (rej. Kotsisa) – przesunięcie przejazdu rowerowego
+- Zjazd z mostu Siekierkowskiego na Wał Zawadowski – korekta przebiegu
+- pl. Zawiszy – remont DDR i przejazdu przez torowisko
+- Wita Stwosza, Odolańska, Siekierkowska, Miączyńska, Gimnastyczna, Oszczepników, - Turystyczna, Żuławskiego, Malawskiego, Olimpijska, Głogowa, Maklakiewicza, Fitelberga, - Sibeliusa, Karolinki, Syryńska Wiśniowa, Szarotki, Pułku AK "Baszta", Tagore, - Lenartowicza, Marzanny, Bukietowa, Wejnerta, Pilicka, Pilicka, Tyniecka , Piłkarska, - Drużynowa Abramowskiego, Braci Pilllatich, Gierymskiego, Huculska, Kalatówki, - Konduktorska, Ksawerów, Ksawerów, Lutocińska, Orkana, Padewska, Promenada, Pytlasińskiego, - Włoska, Zawrat Krasnołęcka, Nabielaka, Tatrzańska, Nowotarska, Zakrzewska, Stopowa, - Zbierska, Iwicka, Czerska, Modzelewskiego-Zdziechowskiego – kontraruch Mokotów
+- Balaton – kontraruch Bielany
+- Monte Cassino, Batalionu Parasol, Znana, Ludwiki, Szarych Szeregów, Pańska, Szymczaka, - Batalionu AK „Zośka”, Garbińskiego, Syreny, Rabsztyńska, Sitnika, Ringelbluma, Raszei, - Tyszkiewicza, Wierzynka, Sokołowska, Dobrzańskiego, Staszica, Krochmalna, Bitwy Pod - Lenino, Młynarska, Sołtyka, Banderii, Gostyńska, Waliców, Grabowska, Tylna, Grenady, - Żytnia – kontraruch Wola
+- Podoskich – kontraruch rowerowy Śródmieście
+- Kossutha, Kruszyńska, Akantu, Thommego, Jana Olbrachta, Drogomilska - kontraruch Bemowo
+- Bródnowska, Harnasie, Św. Cyryla i Metodego, Korsaka, Tarchomińska, Grodzieńska, Konopacka - (Stalowa – Strzelecka), Mała, Zaokopowa - kontraruch Praga-Północ
+- Babie lato, Dziewiarska – kontraruch Rembertów
+- Barwnicza – kontraruch Praga-Południe
+- Śmiała i Skwer Belgera "Goliata" – kontraruch Żoliborz
+
+#### W budowie:
+- al. Solidarności i Leszno (Okopowa - al. Jana Pawła II) – DDR i przejazdy rowerowe
+- Grzybowska (al. Jana Pawła II – Towarowa) - pasy rowerowe
+- Wołoska (Marynarska - Konstruktorska) – DDR i przejazdy rowerowe
+- Droga bez nazwy - 14 KDD (Oś Królewska - al. Rzeczypospolitej) – DDR
+- Ostrobramska vel. Przyczółek Grochowski (Rozłucka - Międzyborska, str. północna) – DDR i - CPR
+- Komitetu Obrony Robotników (Żwirki i Wigury - Wirażowa) – DDR i przejazdy rowerowe
+- Okrzei – DDR
+- Radiowa/Wrocławska – DDR i przejazdy rowerowe
+- Powstańców Śląskich / Wrocławska (przejazdy) – DDR i przejazdy rowerowe
+- Bluszczańska (Grupy AK "Północ" - Pułku AK "Waligóra", str. północna) - DDR
+- Anielewicza (Zamenhofa - Andersa) – przebudowa DDR
+- Dolina Służewiecka/Nowoursynowska – remont przejazdów rowerowych
+- al. Krakowska/Łopuszańska (rondo Wojnara) – przejazdy rowerowe
+- Al. Krakowska/1 Sierpnia – DDR i przejazdy rowerowe
+- Ciszewskiego/Pileckiego – przebudowa DDR
+- Ciszewskiego (al. KEN – Rodowicza „Anody”) – przebudowa DDR
+- Vogla (Przyczółkowa – Koralowa) – CPR
+- al. Sikorskiego (nr 5-7) – remont CPR
+- Zgrupowania AK "Kampinos" (rej. Zajezdni tramwajowej) - DDR
+- Park Żerański (Modlińska – Płochocińska) – DDR
+- Wilczy Dół (Mielczarskiego – Rybałtów) – DDR
+- Belgradzka – łącznik do osiedla Kazury
+- Ikara, Olkuska – kontraruch Mokotów
+- Gibalskiego – kontraruch Wola
+- Kowelska, Konopacka (Mała – Wileńska) – kontraruch Praga-Północ
+
+#### Poprawki:
+- Pileckiego/Puławska – łączniki do jezdni serwisowej
+- Al. Witosa/Sobieskiego – uzupełniono przejazd
+- Branickiego/Sarmacka – uzupełniono przejazd
+- Chodecka/Matki Teresy z Kalkuty – aktualizacja zakresu inwestycji
+- Daniszewska/Annopol – korekta geometrii
+- al. Niepodległości/Rakowiecka – aktualizacja zakresu inwestycji
+- Farysa – korekta przebiegu DDR
+- German – korekta przejazdu
+
+#### Pod Warszawą:
+- Pruszków – Grunwaldzka, Kręta, Park Potulickich, Lipowa, al. Armii Krajowej, Pogodna, Prusa, Kubusia Puchatka
+- Piastów – Dworcowa, al. POW/Piastowska
+- Michałowice – Bodycha
+- Lesznowola – Fabryczna, Krasickiego
+- Obrońców Tobruku/Powązkowska - przebudowa DDR i CPR
+
 ### Aktualizacja danych przesłana 23.05.2025. Zmiany od poprzedniej wersji (10.01.2025):
 
 #### Gotowe:
