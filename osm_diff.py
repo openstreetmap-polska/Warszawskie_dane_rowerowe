@@ -72,7 +72,7 @@ def processOSMDataIntoH3Set(osmData) -> set[str]:
     result = set()
     for element in osmData:
         if element["geometry"]["type"] != "LineString":
-            print(f'Unsupported geometry type {element["geometry"]["type"]}')
+            print(f"Unsupported geometry type {element['geometry']['type']}")
             continue
         coords = element["geometry"]["coordinates"]
         result = processLineIntoH3Set(
@@ -106,7 +106,7 @@ def processDistrict(district, districtFeatures, osmH3Set: set[str]):
             for line in feature["geometry"]["coordinates"]:
                 featureH3Set = processLineIntoH3Set(line, featureH3Set)
         else:
-            print(f'Unsupported geometry type {feature["geometry"]["type"]}')
+            print(f"Unsupported geometry type {feature['geometry']['type']}")
             continue
         count = len(featureH3Set)
         missing = featureH3Set - osmH3Set

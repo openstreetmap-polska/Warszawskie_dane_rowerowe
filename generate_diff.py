@@ -69,7 +69,7 @@ def propsComparedString(feature: Feature) -> str:
         "BUDOWA",
         "TYP_NAW",
     ]
-    return ",".join([f'{key}={feature["properties"][key]}' for key in keysCompared])
+    return ",".join([f"{key}={feature['properties'][key]}" for key in keysCompared])
 
 
 def geometryCompare(
