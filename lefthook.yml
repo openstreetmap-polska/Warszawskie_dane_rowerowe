@@ -8,6 +8,9 @@ pre-commit:
     ruff-check:
       run: uv run ruff check --fix
       stage_fixed: true
+    keep-sorted:
+      run: keep-sorted *.py
+      stage_fixed: true
 
 skip_output:
   - meta           # Skips lefthook version printing

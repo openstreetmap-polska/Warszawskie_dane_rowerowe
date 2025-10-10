@@ -4,6 +4,7 @@
     gdal
     just
     python311
+    keep-sorted
     uv
   ];
   env.LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [

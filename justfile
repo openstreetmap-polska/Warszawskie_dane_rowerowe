@@ -5,3 +5,7 @@ osm_diff:
 
 generate_diff:
     uv run python generate_diff.py
+
+ruff:
+    uv run ruff format
+    uv run ruff check --fix
