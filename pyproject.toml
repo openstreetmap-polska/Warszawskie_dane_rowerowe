@@ -21,3 +21,5 @@ dev = [
     "ruff>=0.14.0",
 ]
 
+[tool.ruff.lint]
+extend-select = ["B", "E", "F", "I", "W"]

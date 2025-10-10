@@ -1,14 +1,14 @@
 #!/usr/bin/env -S uv run python
 
+from pathlib import Path
+
 import h3
 import httpx
+from funcy import log_durations
+from slugify import slugify
 from tqdm import tqdm
 
 import geojson
-from pathlib import Path
-
-from funcy import log_durations
-from slugify import slugify
 
 dataDirectory = Path("rowery_wawa")
 shapefilePath = dataDirectory / "rowery.shp"
@@ -61,7 +61,7 @@ def h3LineLatLng(start: tuple[float, float], end: tuple[float, float]) -> set[st
 def processLineIntoH3Set(
     line: list[tuple[float, float]], result: set[str], neighbourhood_size: int = 0
 ) -> set[str]:
-    for pointA, pointB in zip(line[:-1], line[1:]):
+    for pointA, pointB in zip(line[:-1], line[1:], strict=False):
         for point in h3LineLatLng(pointA, pointB):
             result.update(h3.grid_ring(point, neighbourhood_size))
     return result

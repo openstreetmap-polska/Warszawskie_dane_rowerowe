@@ -1,12 +1,12 @@
 #!/usr/bin/env -S uv run python
+import subprocess
 from pathlib import Path
 from typing import Union
 
-from geojson import FeatureCollection, Feature
+import geopandas
 
 import geojson
-import geopandas
-import subprocess
+from geojson import Feature, FeatureCollection
 
 dataDirectory = Path("rowery_wawa")
 shapefilePath = dataDirectory / "rowery.shp"
