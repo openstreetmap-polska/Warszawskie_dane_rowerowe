@@ -82,7 +82,7 @@ def geometryCompare(
         result = []
         for x in data:
             for y in x:
-                if type(y) == float:
+                if isinstance(y, float):
                     result.append(int(y / eps))
                 else:
                     for z in y:
