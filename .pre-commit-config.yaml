@@ -1,0 +1,26 @@
+repos:
+  # https://prek.j178.dev/builtin/
+  - repo: https://github.com/pre-commit/pre-commit-hooks # Enables fast path
+    rev: v4.5.0 # This is ignored for fast path detection
+    hooks:
+      - id: trailing-whitespace
+  - repo: local
+    hooks:
+      # https://github.com/crate-ci/typos/blob/master/.pre-commit-hooks.yaml
+      - id: keep-sorted
+        name: keep-sorted
+        language: system
+        entry: keep-sorted
+        types: [python]
+      - id: ruff-format
+        name: ruff-format
+        language: system
+        entry: uv run ruff format
+        types: [python]
+        pass_filenames: false
+      - id: ruff-check
+        name: ruff-check
+        language: system
+        entry: uv run ruff check --fix
+        types: [python]
+        pass_filenames: false
