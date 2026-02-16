@@ -1,5 +1,111 @@
 # Pełna lista zmian i aktualizacji
 
+## Zmiany od poprzedniej wersji (07.10.2025):
+#### Gotowe:
+- Andersa (Dawidowskiego - Nowolipki) i Muranowska – DDR i przejazdy
+- Bonifraterska (Sapieżyńska - Międzyparkowa) - pasy rowerowe i przejazdy
+- Wołoska (Marynarska – Konstruktorska, str. zachodnia) - DDR i przejazdy
+- Komitetu Obrony Robotników (Wirażowa - Żwirki i Wigury, str. północna) - DDR i przejazdy rowerowe
+- Marszałkowska/Złota - przejazd rowerowy
+- Droga bez nazwy - 14 KDD (Oś Królewska - al. Rzeczypospolitej) – DDR i przejazd rowerowy
+- Spacerowa – Goworka - Puławska - budowa i remont DDR, przejazdy rowerowe
+- Belwederska-Sobieskiego – remont i przebudowa DDR, przejazdy rowerowe w ramach budowy trasy tramwajowej
+- św. Bonifacego - DDR i przejazdy w ramach budowy trasy tramwajowej
+- Sobieskiego - al. Rzeczpospolitej - remont i przebudowa DDR, przejazdy rowerowe w ramach budowy trasy tramwajowej
+- Park Żerański (Modlińska – Płochocińska) – DDR
+- Mrówcza (Odeska – Panny Wodnej) - DDR
+- Posag 7 Panien (nr 5 - Herbu Oksza) – DDR
+- Radiowa/Wrocławska – przejazdy rowerowe i DDR
+- Jagiellońska/Budzyńskiej-Tylickiej – przejazdy rowerowe i DDR
+- Chodecka/Matki Teresy z Kalkuty – przebudowa DDR i przejazdów
+- Anielewicza (Zamenhofa - Andersa) – przebudowa DDR
+- Branickiego (Sarmacka - Przyczółkowa) - przebudowa DDR
+- Bokserska 56 – przebudowa DDR
+- al. Sikorskiego (nr 5-7) – remont CPR
+- al. Krakowska/Łopuszańska (rondo Wojnara) – przejazdy rowerowe
+- Przyczółkowa/Pałacowa - DDR i przejazdy rowerowe
+- Zgrupowania AK "Kampinos" (rej. zajezdni tramwajowej) - DDR
+- Strażacka (Żołnierska - Zesłańców Polskich) - DDR i przejazdy
+- al. Wedla (Al. Zieleniecka - Międzynarodowa) - CPR
+- Chełmżyńska - DDR w ramach budowy wiaduktu
+- Ciszewskiego/Pileckiego – przebudowa DDR
+- Ciszewskiego (al. KEN – Rodowicza „Anody”) – przebudowa DDR
+- Dolina Służewiecka/Park Kozłowskiego – przebudowa DDR pod wiaduktami
+- al. Stanów Zjednoczonych (Międzynarodowa - Wąchocka, str. płn.) - remont DDR
+- Świętojerska - remont DDR
+- Most Gdański/Wenedów - remont DDR
+- Rudnickiego/Powązkowska - remont DDR i CPR
+- Belgradzka (rej. Rosoła) - remont DDR
+- Wólczyńska/Nocznickiego - przejazdy
+- Vogla (Przyczółkowa - Koralowa) – wyznaczenie CPR
+- Krajewskiego i Wybrzeże Gdyńskie (Jeziorańskiego - Wenedów) - kontraruch, przejazd, DDR i CPR
+- Wołoska (Domaniewska - Konstruktorska, str. wschodnia) - wyznaczenie CPR
+- Czerniakowska (Gagarina - Czerniakowska 47, str. zachodnia) - wyznaczenie CPR i kontraruchu w ramach rozszerzenia SPPN
+- Park Szymańskiego - przebudowa kolizji DDR i trasy rolkowej
+- Pieniążka - wyznaczenie CPR zamiast DDR
+- Moździerzy – łącznik DDR do Lazurowej
+- Belgradzka – łącznik DDR do ul. Kazury
+- Marszałkowska/Złota-Świętokrzyska-Królewska - remonty przejazdów rowerowych
+- Dolina Służewiecka/Nowoursynowska – remont przejazdów rowerowych
+- Radiowa 2 i 20 – remont przejazdów rowerowych
+- Al. Jerozolimskie/Prystora - remont przejazdu rowerowego
+- Prosta 30 – remont przejazdu rowerowego
+- Przy Forcie – likwidacja substandardowej DDR
+- pl. Kasztelański, Kluczborska, Dostępna, Natalii, Grotowska, Okoliczna, Spychowska, Landowskiej – kontraruch Bemowo
+- pl. Dąbrowskiego, Gęsta, Sieroszewskiego, Călinescu, Czerniakowska (rej. ul. Okrąg) – kontraruch Śródmieście
+- Konopacka (Mała - Wileńska), Kowelska, Linneusza (Namysłowska - Młota) – kontraruch Praga-Północ
+- pl. Inwalidów (obie strony), Brandysa, Solskiego, Czarnieckiego - kontraruch Żoliborz
+- Aksamitna (Krótka - Szyszkowa), Kolumba (Szyszkowa – Mineralna) - kontraruch Włochy
+- Gibalskiego, Krępowieckiego, Tyszkiewicza (Wierzynka - Długosza) - kontraruch Wola
+- Olkuska, św. Bonifacego (nr 70 – Sobieskiego) – kontraruch Mokotów
+- Łaguny, Platanów, Bankowa, Norwida - kontraruch Wesoła
+- Stradomska, Biernacka, Koryncka, Jabłeczna, droga bez nazwy (Panny Wodnej – Zasobna), Czarnuszki - kontraruch Wawer
+- al. Bzów, Balbinki, Konińska - kontraruch Ursus
+- Lisia, Hebanowa, Kaktusowa – kontraruch Targówek
+- Babicka, Rytelska – kontraruch Bielany
+- Natolińska - remont nawierzchni (kontraruch)
+- Plakatowa - inne (B-1)
+
+#### W budowie:
+- Marszałkowska (Złota - Świętokrzyska, str. wsch.) - DDR
+- Marszałkowska (Królewska - Świętokrzyska, str. wsch.) - DDR
+- Al. Jerozolimskie (Śmigłowca - Popularna) - przebudowa DDR
+- Fieldorfa "Nila" (Nowaka-Jeziorańskiego - Umińskiego, str. wschodnia) - DDR i przejazdy
+- Nowaka-Jeziorańskiego (Fieldorfa "Nila" - Pasaż Złotej Wilgi) - przebudowa DDR i przejazd
+- droga bez nazwy 5 KUL/Drewny – DDR i przejazdy
+- Kłobucka – DDR i przejazdy
+- Ostrobramska (Międzyborska - Grenadierów) - DDR
+- Sobieskiego (Dolna – Instytut Neurologii) - odcinkowy remont/przebudowa DDR
+- Rzymowskiego (Modzelewskiego – Pętla “Wyścigi”) – przebudowa CPR na DDR
+- Cyrulików - przebudowa DDR
+- Al. Krakowska/Bakalarska - przejazdy rowerowe
+- Grenadierów (al. Waszyngtona - al. Stanów Zjednoczonych) - pasy rowerowe
+- 1 Praskiego Pułku WP – DDR i CPR w ramach budowy tunelu
+- Trasa Siekierkowska aka al. Becka (Czerniakowska - Gościniec) - remont DDR
+- Starzyńskiego (Namysłowska - Rondo Starzyńskiego) – remont i przebudowa DDR
+- Puławska/Bukowińska/Idzikowskiego - przebudowa DDR
+- Puławska/Jagielska - przejazd i DDR
+- Powstańców Śląskich/Sternicza - przejazdy i DDR
+- Orląt Lwowskich - łącznik DDR do Parku Hassów
+- pl. Czerwca 1976 r. - kontraruch Ursus
+- Marsa, Bellony, Strażacka - kontraruch Rembertów
+- Linneusza (Nusbauma - Brudzińskiego) - kontraruch Praga-Północ
+- Telefoniczna - kontraruch Bemowo
+
+#### Poprawki:
+- Ikara – utrzymanie ruchu dwukierunkowego
+- Karmelicka/Lewartowskiego - korekta rodzaju nawierzchni
+- Karczunkowska – CPR na wiadukcie
+- Boduena - korekta przebiegu kontraruchu
+- Tunelowa – korekta geometrii DDR
+- Bysławska/Liliowa - korekta przebiegu
+- Park Żerański - korekta łącznika przy Krzyżówki 24
+- Mrówcza (Piechurów - Lucerny) - dodanie łączników
+
+#### Pod Warszawą:
+- Raszyn – Poziomkowa
+- Piaseczno – Okulickiego, Wojska Polskiego, Puławska
+
 ### Wykaz zmian (w porównaniu do wersji z 23.05.2025):
 #### Gotowe:
 - Obrońców Tobruku/Powązkowska - przebudowa DDR i CPR

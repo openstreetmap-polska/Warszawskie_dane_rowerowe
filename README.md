@@ -24,7 +24,8 @@ Zmiany i wersje:
 - Aktualizacja z dnia 18.04.2024
   - Stan na marzec 2024
 - Aktualizacja z dnia 22.07.2024
-- Aktualizacja z dnia 08.01.2025
+- Aktualizacja z dnia 07.10.2025
+- Aktualizacja z dnia 12.02.2026
 
 W pliku latestDiff.geojson znajduje się infrastruktura zmodyfikowana od ostatniej aktualizacji.
 
@@ -41,4 +42,3 @@ Część różnic wynika z różnic w sposobie mapowania.
 2. Aktualnie porównuje się zbiory obszarów - nie bierze się pod uwagę typu infrastruktury. Czyli ulica, na której był pas rowerowy i została zbudowana DDR nie zostanie wykryta.
 3. Dla każdej linii w danych miejskich sprawdza się ile obszarów nie da się odnaleźć
 4. Uznaje się za brakującą linię jeżeli nie uda się odnaleźć 10 obszarów lub 20% wszystkich.
-
