@@ -29,7 +29,7 @@ def openDataGeojson():
 
 
 def getOSMDataFromOverpass():
-    bbox = "(52,20.5,52.5,21.5)"
+    bbox = "(51.8,20.3,52.7,21.7)"
     query = f"""
     [out:json][timeout:25];
     (
