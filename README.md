@@ -33,7 +33,7 @@ W pliku latestDiff.geojson znajduje się infrastruktura zmodyfikowana od ostatni
 W folderze [osm_diffs](https://github.com/openstreetmap-polska/Warszawskie_dane_rowerowe/tree/main/osm_diffs) można znaleźć pliki w formacie GeoJSON.
 Nazwy plików odpowiadają dzielnicom Warszawy lub podwarszawskim miejscowościom.
 Są one automatycznie wygenerowane.
-W każdym z nich znajduje się infrastruktura rowerowa z pliku rowery_wawa/rowery.shp, której nie udało się dopasować do infrastruktury w OpenStreetMap.
+W każdym z nich znajduje się infrastruktura rowerowa z pliku rowery_wawa/Warszawa.shp oraz rowery_wawa/Warszawa-Okolice.shp, której nie udało się dopasować do infrastruktury w OpenStreetMap.
 Czyli potencjalne braki do zmapowania w OSM.
 Część różnic wynika z różnic w sposobie mapowania.
 

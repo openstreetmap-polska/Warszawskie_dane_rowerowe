@@ -1,5 +1,59 @@
 # Pełna lista zmian i aktualizacji
 
+## Zmiany od poprzedniej wersji (28.01.2026):
+#### Gotowe:
+- Marszałkowska (Królewska - Świętokrzyska) - DDR
+- Fieldorfa (Umińskiego - Nowaka-Jeziorańskiego) - DDR
+- Bluszczańska (Grupy AK "Północ" - Pułku AK "Waligóra") - DDR
+- Wolska/Młynarska - DDR i przejazdy rowerowe
+- Puławska/Rakowiecka - DDR i przejazd rowerowy
+- Rakowiecka/Niepodległości – DDR i przejazdy rowerowe
+- Puławska/Jagielska - DDR i przejazd rowerowy
+- Orląt Lwowskich – DDR
+- Handelsmana (etap I) – DDR
+- Równoległa (nr 5 – 6, etap II) - DDR
+- Starzyńskiego - przebudowa i remont DDR
+- Rzymowskiego (Modzelewskiego - Pętla Wyścigi) – przebudowa na DDR i remont CPR
+- Trasa Siekierkowska (Czerniakowska - Wał Zawadowski) – remont DDR
+- Kinetyczna – CPR w ramach przebudowy drogi (etap I)
+- Barcicka, Rokokowa – kontraruch Bielany
+- Wiśniowa (Rakowiecka – Narbutta), Płyćwiańska - kontraruch Mokotów
+- Telefoniczna – kontraruch Bemowo
+- Linneusza – kontraruch Praga-Północ
+- Suzina – kontraruch Żoliborz
+- Raszyńska - buspas dla rowerów - inne
+- Pole Mokotowskie - łącznik z TŁ przy RJP - inne
+
+#### W budowie:
+- Al. Jana Pawła (Rondo ONZ – Al. “Solidarności”) - DDR i kontraruch
+- Al. Wilanowska/Rolna – przejazd i przebudowa DDR
+- Kłobucka (rej. Taborowej) - DDR
+- Ostródzka 176 - budowa DDR i wyniesionych przejazdów w ramach budowy pływalni
+- Cynamonowa – remont i korekta przebiegu DDR - w trakcie
+- Pańska (Wronia – Miedziana), Wronia (Prosta - Miedziana) - kontraruch Wola
+- Akademicka – kontraruch Ochota
+- Środkowa – kontraruch Praga-Północ
+
+#### Poprawki:
+- Korekta wielu odcinków na podstawie zdjęć z 2025 r.
+
+#### Pod Warszawą:
+- Otwock: Żeromskiego, Majowa, Warszawska, Jana Pawła II, Armii Krajowej, Andriollego
+- Halinów/Zielonka: Zabraniecka
+- Pruszków: Przytorowa
+- Piaseczno: Sienkiewicza, Czajewicza
+- Piaseczno (Złotokłos): Traugutta, Grójecka, Mrokowska
+- Michałowice: Sokołowska
+- Raszyn: Droga Hrabska
+- Brwinów: Sportowa, Wilsona, Lilpopa, Malinowa, Poziomki, Piaseckiego, Natalińska
+- Ząbki: Szwoleżerów
+- Łomianki: Wiślana (w budowie), Warszawska, Wędrowców, Rolnicza
+- Kobyłka/Wołomin: Nadarzyńska/1 Maja (w budowie)
+- Wołomin: Legionów
+- Radzymin: Zawadzka
+- Czosnów: trasy rowerowe w ramach drogi S7
+- Stare Babice, Baranów, Kampinos, Podkowa Leśna, Prażmów, Góra Kalwaria, Celestynów, Kałuszyn, Klembów, Tłuszcz, Jadów, Dębe Wielkie, Jakubów, Dobre, Cegłów, Mrozy, Kołbiel, Jabłonna, Serock, Nasielsk, Zakroczym, Wieliszew, Żabia Wola: cała sieć
+
 ## Zmiany od poprzedniej wersji (07.10.2025):
 #### Gotowe:
 - Andersa (Dawidowskiego - Nowolipki) i Muranowska – DDR i przejazdy

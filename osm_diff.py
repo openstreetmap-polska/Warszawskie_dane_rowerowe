@@ -11,7 +11,7 @@ from tqdm import tqdm
 import geojson
 
 dataDirectory = Path("rowery_wawa")
-shapefilePath = dataDirectory / "rowery.shp"
+shapefilePath = dataDirectory / "Warszawa.shp"
 outputDirectory = Path("osm_diffs")
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"  # "http://localhost:12345/api/interpreter"
 MISSING_COUNT_THRESHOLD = 10
@@ -43,7 +43,14 @@ def getOSMDataFromOverpass():
     out geom;
     """
     with log_duration("download data from Overpass"):
-        response = httpx.post(OVERPASS_URL, data=dict(data=query), timeout=30.0)
+        response = httpx.post(
+            OVERPASS_URL,
+            data=dict(data=query),
+            timeout=30.0,
+            headers={
+                "User-Agent": "https://github.com/openstreetmap-polska/Warszawskie_dane_rowerowe"
+            },
+        )
         response.raise_for_status()
     with log_duration("parsing Overpass response"):
         return geojson.loads(response.text)["elements"]
@@ -148,6 +155,7 @@ def generateOSMDiff(warsawData, osmH3Set: set[str]):
         "Brwinów",
         "Cegłów",
         "Celestynów",
+        "Czosnów",
         "Dobre",
         "Dębe Wielkie",
         "Góra Kalwaria",
@@ -170,6 +178,7 @@ def generateOSMDiff(warsawData, osmH3Set: set[str]):
         "Marki",
         "Michałowice",
         "Mińsk Mazowiecki",
+        "Mrozy",
         "Nadarzyn",
         "Nasielsk",
         "Nieporęt",
@@ -179,14 +188,18 @@ def generateOSMDiff(warsawData, osmH3Set: set[str]):
         "Ożarów Mazowiecki",
         "Piaseczno",
         "Piastów",
+        "Podkowa Leśna",
         "Pogorzel",
         "Pomiechówek",
+        "Prażmów",
         "Pruszków",
+        "Radziejowice",
         "Radzymin",
         "Raszyn",
         "Serock",
         "Stare Babice",
         "Sulejówek",
+        "Tarczyn",
         "Tłuszcz",
         "Wieliszew",
         "Wiązowna",
@@ -195,6 +208,7 @@ def generateOSMDiff(warsawData, osmH3Set: set[str]):
         "Zielonka",
         "Ząbki",
         "Łomianki",
+        "Żabia Wola",
         # keep-sorted end
     ]
     areasAnalyzed = warsawDistricts + supportedTowns

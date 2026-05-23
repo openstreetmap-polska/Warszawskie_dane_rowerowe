@@ -4,12 +4,16 @@ from pathlib import Path
 from typing import Union
 
 import geopandas
+import pandas
 
 import geojson
 from geojson import Feature, FeatureCollection
 
 dataDirectory = Path("rowery_wawa")
-shapefilePath = dataDirectory / "rowery.shp"
+shapefilePaths = [
+    dataDirectory / "Warszawa.shp",
+    dataDirectory / "Warszawa-Okolice.shp",
+]
 geojsonDirectory = Path("geojson")
 geojsonDirectory.mkdir(exist_ok=True)
 
@@ -26,7 +30,9 @@ def checkGitHashes():
     return list(
         map(
             lambda line: line.split(" ")[0][:7],
-            subprocess.check_output(["git", "log", "--pretty=oneline", shapefilePath])
+            subprocess.check_output(
+                ["git", "log", "--pretty=oneline", shapefilePaths[0]]
+            )
             .decode("utf-8")
             .split("\n"),
         )
@@ -37,11 +43,26 @@ def gitCheckout(gitHash: str):
     subprocess.check_output(["git", "checkout", gitHash])
 
 
+CRS = (
+    'PROJCS["ETRS_1989_Poland_CS2000_Zone_7",'
+    'GEOGCS["GCS_ETRS_1989",DATUM["D_ETRS_1989",'
+    'SPHEROID["GRS_1980",6378137.0,298.257222101]],'
+    'PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],'
+    'PROJECTION["Transverse_Mercator"],'
+    'PARAMETER["False_Easting",7500000.0],'
+    'PARAMETER["False_Northing",0.0],'
+    'PARAMETER["Central_Meridian",21.0],'
+    'PARAMETER["Scale_Factor",0.999923],'
+    'PARAMETER["Latitude_Of_Origin",0.0],'
+    'UNIT["Meter",1.0]]'
+)
+
+
 def generateCurrentGeojson(outputPath: Path):
-    data = geopandas.read_file(
-        shapefilePath,
-        crs='PROJCS["ETRS_1989_Poland_CS2000_Zone_7",GEOGCS["GCS_ETRS_1989",DATUM["D_ETRS_1989",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",7500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",21.0],PARAMETER["Scale_Factor",0.999923],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]',
-    )
+    frames = [geopandas.read_file(p, crs=CRS) for p in shapefilePaths if p.exists()]
+    data = pandas.concat(frames, ignore_index=True) if len(frames) > 1 else frames[0]
+    for col in data.select_dtypes(include="string").columns:
+        data[col] = data[col].astype(object)
     data.to_crs("epsg:4326").to_file(outputPath, driver="GeoJSON", crs="epsg:4326")
 
 
@@ -128,7 +149,7 @@ def generateDiff(lastPath: Path, previousPath: Path):
 def main():
     gitHashes = checkGitHashes()
     lastHash = gitHashes[0]
-    previousHash = gitHashes[1]
+    previousHash = "8ac47fe"  # TODO: gitHashes[1]
     lastPath = generateGeojsonGit(lastHash)
     previousPath = generateGeojsonGit(previousHash)
     generateCurrentGeojson(geojsonDirectory / "latest.geojson")
