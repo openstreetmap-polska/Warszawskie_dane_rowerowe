@@ -149,7 +149,7 @@ def generateDiff(lastPath: Path, previousPath: Path):
 def main():
     gitHashes = checkGitHashes()
     lastHash = gitHashes[0]
-    previousHash = "8ac47fe"  # TODO: gitHashes[1]
+    previousHash = gitHashes[1]
     lastPath = generateGeojsonGit(lastHash)
     previousPath = generateGeojsonGit(previousHash)
     generateCurrentGeojson(geojsonDirectory / "latest.geojson")
