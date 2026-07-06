@@ -1,5 +1,62 @@
 # Pełna lista zmian i aktualizacji
 
+## Zmiany od poprzedniej wersji (07.05.2026):
+#### Gotowe:
+- Al. Solidarności i Leszno (Okopowa – Al. Jana Pawła II) – DDR i przejazdy rowerowe
+- Powstańców Śląskich / Wrocławska – DDR i przejazdy rowerowe
+- Przyczółek Grochowski – DDR, CPR na pochylni i przejazd rowerowy
+- Al. Wilanowska/Rolna – przejazd i DDR – gotowe
+- 5 KUL/ Drewny nr 2 – DDR i przejazdy rowerowe
+- Al. Krakowska/Bakalarska – przebudowa DDR i przejazdy rowerowe
+- Powstańców/Sternicza – DDR i przejazdy
+- Giserska (Taylora – Habicha) – DDR
+- Talarowa – DDR
+- Eukaliptusowa/Przy Żółtej Karczmie – DDR
+- Puławska/Idzikowskiego – przebudowa DDR
+- Sobieskiego (wybrane odcinki) – remont DDR
+- Cynamonowa/Płaskowickiej – remont DDR
+- Rozbrat/Al. Stanka – wyniesienie przejazdu rowerowego
+- Silnikowa, Pl. Czerwca 1976 r. – kontraruch Ursus
+- Pańska (Wronia - Miedziana), Wronia (Prosta - Miedziana) – kontraruch Wola
+- Traugutta/Krakowskie Przedmieście, Warecka/Nowy Świat, Rybaki, Skwer Skibniewskiego „Cubryny”, Park im. Dygata, Fińska – inne
+
+#### W budowie:
+- Białołęcka (Trasa Toruńska - Ketlinga) – DDR
+- Kłobucka (Złoty Potok – Koprowskiego) – DDR
+- Giserska (Habicha - Herbu Oksza) – DDR
+- Postępu 4A – DDR
+- Jagiellońska (rej. Kotsisa) – DDR
+- Al. Jerozolimskie (nr 184 – 194) – przebudowa DDR i wyniesienie przejazdów
+- Al. Armii Ludowej (przy Pomniku Daszyńskiego) – przebudowa DDR
+- Jerozolimskie (rej. Dworca Zachodniego) – remont DDR
+- Kulskiego – łącznik DDR
+
+#### Poprawki:
+- Barszczewskiej – rezerwa
+- Czerniakowska/Idzikowskiego – uzupełniono łączniki DDR
+- Dąbrowskiego/Łowicka – uzupełniono kontraruch
+- Reymonta/Żbikowianka – uzupełnienie przejazdu rowerowego
+- Dziekońskiego – korekta łączników DDR
+- Obrońców – korekta przebiegu
+- Pole Mokotowskie – korekta w rej. ronda
+- Posag 7 Panień – korekta pasa rowerowego
+- Przyczółkowa/Pałacowa – korekta CPR
+- Rondo Miś – korekta przebiegu
+- Stryjeńskich – korekta przebiegu
+
+#### Pod Warszawą:
+- Mińsk Mazowiecki - cała sieć
+- Sulejówek - cała sieć
+- Karczew - Częstochowska (CPR)
+- Leszno - cała sieć
+- Tarczyn - cała sieć
+- Ożarów Mazowiecki - cała sieć
+- Czosnów - cała sieć
+- Piaseczno - Okulickiego
+- Piastów - cała sieć
+- Pruszków - cała sieć
+- Pomiechówek - cała sieć
+
 ## Zmiany od poprzedniej wersji (28.01.2026):
 #### Gotowe:
 - Marszałkowska (Królewska - Świętokrzyska) - DDR
