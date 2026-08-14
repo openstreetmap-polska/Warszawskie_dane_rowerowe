@@ -1,5 +1,49 @@
 # Pełna lista zmian i aktualizacji
 
+## Zmiany od poprzedniej wersji (29.06.2026):
+
+#### Gotowe:
+- Marszałkowska (Złota - Świętokrzyska) - DDR, przejazdy i DOP na buspasie
+- Równoległa (etap 4) - DDR
+- Postępu nr 4A - 6 - DDR
+- Jagiellońska (rej. Kotsisa) - DDR
+- Rozwojowa (droga wew.) - DDR
+- Grenadierów (Al. Waszyngtona - Al. USA) - pasy rowerowe i DOP na buspasie
+- Kulskiego/Wołoska – łącznik DDR
+- Jazgarzewska - kontraruch Mokotów
+- Nasielska - kontraruch Praga-Południe
+- Wał Zawadowski (Most Siekierkowski - ujście Wilanówki) - remont trasy
+- Łęczycka, Park Szczęśliwicki, Zielna, Zgoda, Złota - inne
+
+#### W budowie:
+- Most Siekierkowski (str. płn.) - remont CPR
+- Dźwigowa/Parowcowa - pasy rowerowe
+- Połczyńska/Sochaczewska - przejazdy i przebudowa DDR
+- Jagiellońska (rej. Batalionu Platerówek) - kontraruch na serwisówce
+- Angorska, Holenderska, Londyńska, Niekłańska, Peszteńska, Walecznych, – kontraruch Praga-Południe
+
+#### Poprawki:
+- Świętokrzyska/Plater - uzupełnienie kierunków
+- Mokotowska/Hoża - uzupełnienie kierunków
+- Pułku AK “Waligóra - uzupełnienie kierunków
+- Kozia - korekta przebiegu
+- Ordona - korekta przebiegu
+- Sierpecka/Sarmatów - korekta przebiegu
+
+#### Pod Warszawą:
+- gm. Błonie - wszystkie odcinki
+- gm. Brwinów - wszystkie odcinki
+- gm. Grodzisk Mazowiecki - wszystkie odcinki
+- gm. Jaktorów - wszystkie odcinki
+- Lesznowola – park wokół Panoptikum
+- Michałów-Reginów - Długa
+- Michałowice - łącznik Raszynka/Al. Topolowa
+- gm. Milanówek - wszystkie odcinki
+- gm. Nadarzyn - wszystkie odcinki
+- Podkowa Leśna - Modrzewiowa
+- Raszyn - Al. Krakowska (inne -> CPR)
+- Zalesie Górne - Koralowych Dębów
+
 ## Zmiany od poprzedniej wersji (07.05.2026):
 #### Gotowe:
 - Al. Solidarności i Leszno (Okopowa – Al. Jana Pawła II) – DDR i przejazdy rowerowe
