@@ -181,6 +181,7 @@ def generateOSMDiff(warsawData, osmH3Set: set[str]):
         "Lesznowola",
         "Marki",
         "Michałowice",
+        "Milanówek",
         "Mińsk Mazowiecki",
         "Mrozy",
         "Nadarzyn",
